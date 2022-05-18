@@ -53,6 +53,7 @@ body {
 .habilidades {
     grid-column: 2 / 3;
 }
+
 footer {
     background-color: #444444;
     display: grid;
