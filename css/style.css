@@ -1,0 +1,70 @@
+body, h1, h2, h3, ul, li, p, dd, dt, dl {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    padding: 20px;
+    background-color: #444444;
+    width: auto;
+    height: 50px;
+    grid-column: 1 / 4;
+}
+
+
+.header li a {
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.menu {
+    grid-column: 2 / 4;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu h1 {
+    font-size: 36px;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+body {
+    font-family: monospace;
+    background-color: rgb(244, 244, 245);
+    display: grid;
+    grid-template-columns: 140px minmax(400px, 1500px) 100px;
+}
+
+.projetos {
+    grid-column: 2 / 3;
+}
+
+.habilidades {
+    grid-column: 2 / 3;
+}
+footer {
+    background-color: #444444;
+    display: grid;
+    grid-column: 1 / 4;
+    width: auto;
+    height: 4rem;
+}
+
+footer p {
+    font-family: monospace;
+    font-size: 16px;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
