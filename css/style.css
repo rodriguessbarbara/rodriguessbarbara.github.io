@@ -4,43 +4,32 @@ body, h1, h2, h3, ul, li, p, dd, dt, dl {
 }
 
 img {
-    display: inline-block;
     max-width: 100%;
-    padding-right: 25px;
 }
 
 body {
     font-family: monospace;
     background-color: rgb(244, 244, 245);
     display: grid;
-    grid-template-columns: 140px minmax(400px, 1500px) 140px;
+    grid-template-rows: repeat(3, auto) 1fr;
+    grid-template-columns: 1fr minmax(400px, 1500px) 1fr;
 }
 
 .header {
-    width: auto;
-    height: 5rem;
-    grid-column: 1 / 4;
-}
-
-#logo {
-    display: flex;
-    flex-wrap: nowrap;
+    grid-column: 2 / 3;
+    height: 100px;
+    padding: 20px 15px;
 }
 
 .header ul {
-    padding-right: 20px;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-items: center;
     list-style: none;
+    gap: 40px;
+    justify-content: end;
+    align-content: center; 
 }
 
-.header li {
-    width: 120px;
-}
-
-.header li a {
+.header a {
     text-decoration: none;
     color: #2c2c2c;
     font-weight: bold;
@@ -50,10 +39,9 @@ body {
 }
 
 .menu {
-    grid-column: 2 / 4;
+    grid-column: 2 / -1;
     margin-top: 1rem;
     margin-bottom: 2rem;
-
 }
 
 .menu h1 {
@@ -62,14 +50,17 @@ body {
     color: rgb(31, 31, 31)
 }
 
+#img-menu {
+    grid-row: 1 / 2;
+}
 
 #titulo-detalhe {
     color: blue;
-    font-size: 52px;
+    font-size: 3rem;
 }
 
 .projetos {
-    grid-column: 2 / 3;
+    grid-column: 2 / -1;
 }
 
 .titulo-decorado {
