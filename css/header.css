@@ -22,6 +22,11 @@
     padding: 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
+    border: solid 3px transparent;
+}
+
+.cabecalho a:hover {
+    border-bottom: solid 3px darkmagenta;
 }
 
 @media (max-width: 700px) {
@@ -33,5 +38,8 @@
     .header a {
         background-color: #eeeeee;
         border-radius: 5px;
+    }
+    .cabecalho a:hover {
+        border: solid 3px darkmagenta;
     }
 }
