@@ -5,6 +5,8 @@ body, h1, h2, h3, ul, li, p, dd, dt, dl {
 
 img {
     max-width: 100%;
+    display: block;
+
 }
 
 body {
