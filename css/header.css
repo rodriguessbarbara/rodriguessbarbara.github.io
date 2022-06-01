@@ -29,6 +29,7 @@
     border-bottom: solid 3px darkmagenta;
 }
 
+
 @media (max-width: 700px) {
     .header {
         flex-direction: column;

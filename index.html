@@ -16,7 +16,7 @@
           <nav>
                <ul class="cabecalho">
                     <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#habilidade">Habilidades</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#contato">Contato</a></li>
                </ul>
           </nav>
@@ -34,26 +34,61 @@
           </div>
      </main>
 
-     <article>
-          <section class="projetos">
-               <h2 class="titulo-decorado">Projetos</h2>
-               <img src="img/projeto1.png" alt="imagem mulher na academia" class="img-academia" width="300"/>
-               <img src="img/projeto2.png" alt="imagem mulher na bicicleta na academia" class="img-academia" width="300"/>
-               <img src="img/projeto3.png" alt="imagem homem fazendo exercício na academia" class="img-academia" width="300"/>
-          </section>
-       
-          <section class="habilidades">
-               <h2 class="titulo-decorado">Habilidades</h2>
+     <section aria-label="projetos" class="projetos" id="projetos">
+          <h2 class="subtitulo">Projetos</h2>
+               <p class="texto-projeto">Projetos de aplicativo web que desenvolvi utilizando HTML, CSS e Javascript.<br>
+                    Há também projetos de UI Design, desenhados a partir do Figma.
+               </p>
+          <div class="projetos-flexbox">
+               <div class="card-projeto">
+                    <a href="https://github.com/rodriguessbarbara/desafios-frontend/tree/main/bikcraft" target="_blank">
+                         <img src="img/bikcraft.svg" alt="capa do projeto Bikcraft">
+                    </a>
+                    <div class="projeto-grid">
+                         <h3>Bikcraft</h3>
+                         <span>UI Design/Front-End</span>
+                    </div>
+                    <p>Design de interface, prototipação e aplicação<br> web para um comércio de bicicletas.</p>
+               </div>
+
+               <div class="card-projeto">
+                    <a href="https://www.figma.com/proto/pFPLGRPZt9UtPjhxKzSXve/DesignIn---App-Prototype?node-id=1%3A25&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A25"
+                    target="_blank">
+                         <img src="img/Designin.png" alt="capa do projeto DesignIn">
+                    </a>
+                    <div class="projeto-grid">
+                         <h3>DesignIn</h3>
+                         <span>UI Design</span>
+                    </div>
+                    <p>Protótipo de alta fidelidade de um aplicativo<br> mobile para designers.</p>
+               </div>
+ 
+               <div class="card-projeto">
+                    <a href="https://www.figma.com/proto/7ErKazewuhG8D96DSdC9aO/Academia---Landing-Page?node-id=140%3A25&scaling=scale-down-width&page-id=140%3A24"
+                    target="_blank">
+                         <img src="img/nipponn.png" alt="capa do projeto Nippon">
+                    </a>
+                    <div class="projeto-grid">
+                         <h3>Nippon Academia</h3>
+                         <span>Em Andamento</span>
+                    </div>
+                    <p>Protótipo web de alta fidelidade de uma<br> Landing Page rede de rede de academias.</p>
+               </div>
+          </div>
+     </section>
+     
+     <section aria-label="habilidades" class="habilidades" id="habilidades">
+          <h2 class="subtitulo">Habilidades</h2>
+          <div>
                <img src="img/tools/css 1.png" alt="logo css" class="img-tool" width="70px"/>
                <img src="img/tools/Ellipse 1.png" alt="logo AdobeXD" class="img-tool" width="70px"/>
                <img src="img/tools/figma (1) 1.png" alt="logo Figma" class="img-tool" width="70px"/>
                <img src="img/tools/github (1) 1.png" alt="logo Github" class="img-tool" width="70px"/>
                <img src="img/tools/html 1.png" alt="logo HTML" class="img-tool" width="70px"/>
                <img src="img/tools/javascript 1.png" alt="logo Javascript" class="img-tool" width="70px"/>
-       
-                 <h2 class="titulo-decorado">Cursos</h2>
-           </section>
-     </article>
+          </div>
+     </section>
+
 
     <footer>
          <p> Todos os direitos reservados</p>
