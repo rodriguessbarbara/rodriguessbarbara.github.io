@@ -19,3 +19,14 @@ img {
     max-width: 100%;
     display: block;
 }
+
+.subtitulo {
+    font-family: 'Poppins';
+    font-size: 4rem;
+    color: darkmagenta;
+    opacity: 0.5;
+    padding-top: 80px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}

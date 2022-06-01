@@ -1,13 +1,3 @@
-.projetos h2 {
-    font-family: 'Poppins';
-    font-size: 4rem;
-    color: #cccccc;
-    padding-top: 80px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
 .texto-projeto {
     text-align: center;
     color: #4e4e4e;
@@ -37,6 +27,9 @@
 
 .card-projeto:hover {
     border: solid 3px darkmagenta;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .card-projeto p {
@@ -61,4 +54,14 @@
     text-align: end;
     padding-top: 8px;
     padding-right: 20px;
+}
+
+@media (max-width: 700px) {
+    .subtitulo {
+        font-size: 3rem;
+        padding-top: 40px;
+    }
+    .texto-projeto {
+        font-size: 1rem;
+    }
 }
