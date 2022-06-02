@@ -1,0 +1,28 @@
+.contato {
+    background-color: #222222;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contato .subtitulo {
+    color: rgb(134, 116, 134);
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.contato p {
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: 30px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.redes-sociais img {
+    width: 40px;
+}

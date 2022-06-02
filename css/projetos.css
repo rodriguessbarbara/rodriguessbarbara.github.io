@@ -6,13 +6,15 @@
 }
 
 .projetos img {
-    width: 400px; 
+    width: 350px; 
     height: 300px; 
     object-fit: cover;
     object-position: 50% 0%; 
 }
 
 .projetos-flexbox {
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -53,7 +55,7 @@
 .projeto-grid span {
     text-align: end;
     padding-top: 8px;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 @media (max-width: 700px) {

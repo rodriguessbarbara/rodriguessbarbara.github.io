@@ -22,9 +22,9 @@ img {
 
 .subtitulo {
     font-family: 'Poppins';
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: darkmagenta;
-    opacity: 0.5;
+    opacity: 0.3;
     padding-top: 80px;
     margin-bottom: 10px;
     text-transform: uppercase;
