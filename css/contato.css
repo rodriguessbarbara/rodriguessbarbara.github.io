@@ -1,7 +1,7 @@
 .contato {
     background-color: #222222;
     margin-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .contato .subtitulo {
@@ -12,7 +12,7 @@
 
 .contato p {
     text-align: center;
-    color: #fafafa;
+    color: #ddd;
     margin-bottom: 30px;
 }
 
