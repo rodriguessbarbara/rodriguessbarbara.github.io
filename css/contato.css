@@ -1,19 +1,19 @@
 .contato {
-    background-color: #222222;
-    margin-top: 80px;
-    padding-bottom: 40px;
+    background-color: #444;
+    margin-top: 60px;
+    padding-bottom: 25px;
 }
 
 .contato .subtitulo {
     color: rgb(134, 116, 134);
-    padding-top: 50px;
-    margin-bottom: 10px;
+    padding-top: 30px;
+    margin: 0px;
 }
 
 .contato p {
     text-align: center;
     color: #ddd;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .redes-sociais {
@@ -25,4 +25,16 @@
 
 .redes-sociais img {
     width: 40px;
+}
+
+@media (max-width: 700px) {
+    .subtitulo {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .subtitulo {
+        font-size: 2.5rem;
+    }
 }
