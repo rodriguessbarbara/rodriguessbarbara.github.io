@@ -1,6 +1,6 @@
 .texto-projeto {
     text-align: center;
-    color: #4e4e4e;
+    color: #979797;
     font-size: 1.2rem;
     margin-bottom: 50px;
 }
@@ -28,7 +28,7 @@
 }
 
 .card-projeto:hover {
-    border: solid 3px darkmagenta;
+    border: solid 3px rgb(255, 0, 255);
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -37,7 +37,7 @@
 
 .card-projeto p {
     font-size: 1.2rem;
-    color: #4e4e4e;
+    color: #979797;
     padding-left: 5px;
 }
 
@@ -45,7 +45,7 @@
     font-size: 1.125rem;
     padding: 8px;
     margin-bottom: 20px;
-    color: #222222;
+    color: #cecece;
 }
 
 .projeto-grid {

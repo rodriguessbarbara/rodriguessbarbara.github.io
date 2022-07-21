@@ -1,11 +1,11 @@
 .contato {
-    background-color: #444;
+    background-color: #000;
     margin-top: 60px;
     padding-bottom: 25px;
 }
 
 .contato .subtitulo {
-    color: rgb(134, 116, 134);
+    color: rgb(255, 0, 255);
     padding-top: 30px;
     margin: 0px;
 }

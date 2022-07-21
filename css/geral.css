@@ -1,8 +1,8 @@
 body {
     margin: 0px;
     font-family: Helvetica;
-    color: #141414;
-    background-color: #fafafa;
+    color: #ffffff;
+    background-color: #0f0f0f;
 }
 
 h1, h2, h3, p {
@@ -23,7 +23,7 @@ img {
 .subtitulo {
     font-family: 'Poppins';
     font-size: 3.5rem;
-    color: darkmagenta;
+    color: rgb(255, 0, 255);
     opacity: 0.3;
     padding-top: 80px;
     margin-bottom: 10px;

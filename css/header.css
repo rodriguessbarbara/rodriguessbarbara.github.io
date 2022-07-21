@@ -16,7 +16,7 @@
 
 .cabecalho a {
     display: block;
-    color: #2c2c2c;
+    color: #fafafa;
     font-size: 1rem;
     font-weight: bold;
     padding: 10px 20px;
@@ -26,7 +26,7 @@
 }
 
 .cabecalho a:hover {
-    border-bottom: solid 3px darkmagenta;
+    border-bottom: solid 3px rgb(255, 0, 255);
 }
 
 
@@ -37,10 +37,10 @@
         gap: 30px;
     }
     .header a {
-        background-color: #eeeeee;
+        background-color: #1f1f1f;
         border-radius: 5px;
     }
     .cabecalho a:hover {
-        border: solid 3px darkmagenta;
+        border: solid 3px rgb(255, 0, 255);
     }
 }

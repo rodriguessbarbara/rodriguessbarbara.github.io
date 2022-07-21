@@ -10,7 +10,7 @@
 
 .introducao h1 {
     font-family: 'Poppins';
-    color: #222222;
+    color: #eeeeee;
     font-size: 3.5rem;
     line-height: 1.4;
     margin-bottom: 20px;
@@ -19,12 +19,12 @@
 .introducao span {
     font-family: 'Poppins';
     font-size: 3.5rem;
-    color: darkmagenta;
+    color: rgb(255, 0, 255);
     margin-left: 20px;
 }
 
 .introducao p {
-    color: #4e4e4e;
+    color: #b8b8b8;
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
