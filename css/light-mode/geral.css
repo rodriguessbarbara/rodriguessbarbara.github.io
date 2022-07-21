@@ -15,16 +15,15 @@
 
 } */
 
-/* h1 {
-    color: #222222;
-} */
 
-/* .introducao p {
+
+/* p {
     color: #4e4e4e;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
 } */
 
+/* h1, h2, h3 {
+    color: #222
+} */
 
 
 /* .card-projeto:hover {
@@ -34,15 +33,3 @@
     transform: scale(1.1);
     transition-duration: .5s;
 }
-
-.card-projeto p {
-    font-size: 1.2rem;
-    color: #4e4e4e;
-    padding-left: 5px;
-}
-
-.card-projeto h3 {
-    font-size: 1.125rem;
-    padding: 8px;
-    margin-bottom: 20px;
-    color:  #222 */
