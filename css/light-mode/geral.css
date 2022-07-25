@@ -1,35 +1,32 @@
-/* body {
-    margin: 0px;
-    font-family: Helvetica;
-    color: #fafafa;
-    background-color: #0a0a0a;
-} */
+.light-mode {
+    color: hsl(0, 0%, 4%);
+    background-color: #fafafa;
+}    
 
-/* .contato, footer {
+.light-mode h1, .light-mode h2, .light-mode h3 {
+    color: #222;
+}
+
+.light-mode .contato, .light-mode footer {
     background-color: #444;
-} */
+}
 
-/* .cabecalho a:hover {
+.light-mode .cabecalho a:hover {
     border-bottom: solid 3px darkmagenta;
 }
 
-} */
-
-
-
-/* p {
+.light-mode p, .light-mode .texto-projeto, .light-mode .cabecalho a {
     color: #4e4e4e;
-} */
+}
 
-/* h1, h2, h3 {
-    color: #222
-} */
-
-
-/* .card-projeto:hover {
+.light-mode .card-projeto:hover {
     border: solid 3px darkmagenta;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition-duration: .5s;
+}
+
+.light-mode .habilidades img {
+    opacity: 1;
+}
+
+.light-mode .habilidades img:hover {
+    opacity: 0.7;
 }

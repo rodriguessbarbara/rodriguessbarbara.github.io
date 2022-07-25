@@ -2,6 +2,7 @@
 /* The switch - the box around the slider */
 .flex {
   max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: end;
   padding-right: 20px;
