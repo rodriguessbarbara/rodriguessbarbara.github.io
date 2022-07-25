@@ -1,6 +1,6 @@
 .light-mode {
-    color: hsl(0, 0%, 4%);
-    background-color: #fafafa;
+    color: #000;
+    background-color: #eee;
 }    
 
 .light-mode h1, .light-mode h2, .light-mode h3 {
@@ -8,7 +8,11 @@
 }
 
 .light-mode .contato, .light-mode footer {
-    background-color: #444;
+    background-color: #222;
+}
+
+.light-mode .contato p, .light-mode footer p {
+    color: #eee;
 }
 
 .light-mode .cabecalho a:hover {
